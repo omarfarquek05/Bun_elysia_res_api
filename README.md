@@ -19,21 +19,22 @@ This project is a **full-stack REST API** built using **Bun runtime** and **Elys
 
 bun_with_elysia/
 ├─ src/
-│ ├─ db/
-│ │ ├─ index.ts ← DB connection
-│ │ └─ schema.ts ← Drizzle table schema
-│ ├─ models/
-│ │ └─ user.model.ts ← Model functions (CRUD logic)
-│ ├─ controllers/
-│ │ └─ user.controller.ts
-│ ├─ routes/
-│ │ └─ user.routes.ts ← Routes setup
-│ ├─ app.ts ← Elysia app configuration
-│ └─ index.ts ← Server entrypoint
-├─ .env ← Environment variables
+│  ├─ db/
+│  │  ├─ index.ts        ← DB connection
+│  │  └─ schema.ts       ← Drizzle schema
+│  ├─ models/
+│  │  └─ user.model.ts   ← DB model functions
+│  ├─ controllers/
+│  │  └─ user.controller.ts
+│  ├─ routes/
+│  │  └─ user.routes.ts
+│  ├─ app.ts
+│  └─ index.ts
+├─ .env
 ├─ package.json
 ├─ tsconfig.json
 └─ bun.lockb
+
 
 yaml
 Copy code
